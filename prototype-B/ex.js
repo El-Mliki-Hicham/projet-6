@@ -3,7 +3,7 @@ var bouton;
 var sortie;
 var numero;
 var nombreDeviner;
-var tentativee ;
+
 
  // entrer: saiser 
  bouton = document.getElementById('bouton');
@@ -12,7 +12,7 @@ var tentativee ;
 
  // traitement 
 
-bouton.addEventListener('click', function(){
+function entre(){
   
   
   nombreDeviner = document.getElementById('entréDeUtilisateur').value;
@@ -32,5 +32,5 @@ bouton.addEventListener('click', function(){
         } 
 
                                               }
- );
+ ;
 

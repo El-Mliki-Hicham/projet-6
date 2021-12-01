@@ -5,7 +5,7 @@ var number;
 var nombreDeviner;
 var attempt;
 
- // entrer: saiser 
+// entrer: saiser 
  btn = document.getElementById('btn');
  output = document.getElementById('outputtext');
  number = Math.floor(Math.random() * 100);
